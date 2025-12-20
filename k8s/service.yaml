@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-app-service
+  namespace: default
+spec:
+  type: NodePort  # または LoadBalancer
+  selector:
+    app: my-app
+  ports:
+  - port: 80
+    targetPort: 80
+    nodePort: 30080  # NodePortの場合（30000-32767の範囲）
