@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ghcr.io/keyi1000/myapp:main-8e1bb03
+        image: ghcr.io/keyi1000/myapp:main-637303d
         ports:
         - containerPort: 80
         resources:
