@@ -4,6 +4,7 @@ metadata:
   name: myapp
   namespace: default
 spec:
+  revisionHistoryLimit: 3
   replicas: 2
   strategy:
     type: RollingUpdate
