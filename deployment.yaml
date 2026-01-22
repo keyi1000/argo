@@ -21,7 +21,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: ghcr.io/keyi1000/myapp:main-d80bf25
+        image: ghcr.io/keyi1000/myapp:main-e46ee3c
         imagePullPolicy: Always
         ports:
         - containerPort: 80
